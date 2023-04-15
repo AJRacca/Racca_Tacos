@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<h1>Racca Taco's</h1>
+
+<body>
+    <form action="/tacos">
+        
+        <p>
+            <label for="UsErNaMe">Enter Username</label>
+            <input type="text" placeholder="UsErNaMe">
+        </p>
+        <p>
+            <label for="password">Enter Password</label>
+            <input type="password" placeholder="PaSsWoRd" id="password" name="password">
+        </p>
+        <p>
+            <label for="color">Tortilla</label>
+            <input type="color" id="color" name="color"> White or Yellow
+        </p>
+        <p>
+            <input type="checkbox"> Cilatntro
+            <input type="checkbox"> Onions
+            <input type="checkbox"> Salsa
+            <input type="checkbox"> Plain
+        </p>
+        <p>
+            <label for="Enter Level of spice">Spice level
+                <input type="number" name="Spice" id="Spice" min="1" max="5">
+
+            </label>
+        </p>
+        <p>
+            <button type="button">TACO"S NOW</button>
+            <button form="submit">Order UP</button>
+            <button type="submit">Lets Eat!! </button>
+        </p>
+        <hr>
+        <p>
+            <h2>Serchity Searches</h2>
+
+            <h3>Google Search</h3>
+            <form action="https://www.google.com/search">
+                <input type="text" name="Google">
+                    <button type="search">Google</button>
+        </form>
+        </p>
+            <h3>Search Google</h3>
+            <form action="https://www.google.com/search">
+                <input type="text" name="Search">
+                <button type="button">search google</button>
+            </form>
+            <h3>Search Youtube</h3>
+            <form action="https://www.youtube.com/results">
+                <input type="text" name="search youtube">
+                <button>Search youtube</button>
+
+            </form>
+        </p>
+
+        <h2>More Inputs</h2>
+        <form action="/tacos">
+            <input type="checkbox" name="agree_tos" id="agree">
+            <label for="agree">I agree and want my tacos now!</label>
+                <button>YEEE!</button>
+            <p>
+                <label for="Dine">Dine</label>
+                <input type="radio" name="Here" id="Here" value="Here">
+                <label for="ToGO">ToGO</label>
+                <input type="radio" name="Here" id="ToGO" value="ToGO">
+                <label for="In Car">In Car</label>
+                <input type="radio" name="Here" id="In Car" value="In Car">
+            </p>
+            <button>HANGRY!</button>
+        </form>
+        <p>
+          <form action="/spicy">
+            <label for="Salsa">Please Select Salsa</label>
+            <select name="Salsa" id="Salsa">
+                <option value="--Don't forget Salsa--">--Don't forget Salsa--</option>
+                <option value="Red">Red</option>
+                <option value="Green">Green</option>
+                <option value="Habanero">Habanero</option>
+            </select>
+            <button type="submit">SPICY</button>
+        </form>
+        </p>
+        <p>
+            <form action="/salsa">
+            <label for="Amount of Salsa"></label>
+            <input type="range" id="salsa" min="1" max="10" name="Spiciness" >
+        
+            <button>Salsa</button>
+        </form>
+        </p>
+        
+            <label for="">Any special requests?</label>
+        </p>
+    
+            <textarea name="Requests" id="Requests" cols="30" rows="10" placeholder="Picky People Requests"></textarea>
+        <P>
+            <button type="submit">Thanks!</button>
+        </P>
+            <form action="/dummy">
+                <label for="first">Enter first Name</label>
+                <input type="text" name="First Name" >
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" minlength="5" maxlength="20" >
+                <button type="submit">Submit</button>
+            </form>
+</body>
+</html>
